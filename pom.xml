@@ -268,8 +268,11 @@
       <groupId>com.oracle</groupId>
       <artifactId>ojdbc</artifactId>
       <version>14</version>
+      <!--
       <scope>system</scope>
-      <systemPath>${basedir}/WebContent/WEB-INF/lib/ojdbc6.jar</systemPath> <!-- must match file name -->
+      <systemPath>${basedir}/WebContent/WEB-INF/lib/ojdbc6.jar</systemPath>
+      -->
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>net.sf.opencsv</groupId>
